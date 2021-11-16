@@ -1,0 +1,67 @@
+/* Hero Style Start */
+.hero {
+  background-image: url(../assets/images/hero-bg.jpg);
+  background-size: cover;
+  background-position: bottom;
+  position: relative;
+  height: auto;
+  text-align: center;
+  margin-bottom: 40px;
+}   
+
+.hero-form {
+   border: solid 3px #024e76;
+   background-color: #fce138;
+   padding: 20px;
+   margin: 0px;
+   width: 500px;
+   color: #024e76;
+   position: absolute;
+   bottom: 120px;
+   right: 140px
+}
+
+.hero-form h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+
+/* homepage hero */
+.hero {
+  margin: 20px;
+  background-color: white;
+  font-size: 20px;
+  color: blue;
+}
+
+/* secondary page hero */
+.hero-secondary {
+  margin: 20px;
+  background-color: black;
+  font-size: 20px;
+  color: red;
+}
+
+.hero {
+  margin: 20px;
+  font-size: 20px;
+  background-color: white;
+  color: blue;
+}
+
+/* these two colors will override the ones above in .hero */
+.hero-secondary {
+  background-color: black;
+  color: red;
+}
+
+.hero {
+  background-position: bottom;
+  height: auto;
+  text-align: center;
+  margin-bottom: 40px;
+}
